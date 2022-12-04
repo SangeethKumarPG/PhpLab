@@ -1,0 +1,11 @@
+<?php
+    if(isset($_GET['logout'])){
+        session_start();
+        unset($_SESSION['fname']);
+        unset($_SESSION['lname']);
+        unset($_SESSION['userid']);
+        session_destroy();
+        header('location:index.php?logout=true');
+        exit;
+    }
+?>
