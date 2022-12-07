@@ -19,6 +19,17 @@
 
     
     <div class="container">
+    <ul class="nav navbar-nav">
+            <li class="active">
+                <a href="dashboard.php">Dashboard</a>
+            </li>
+            <li>
+                <a href="logout.php?logout=true" style="color:red;">Logout</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="container">
         <div class="jumbotron text-centre">
             <h1>Upload Images</h1>
         </div>
