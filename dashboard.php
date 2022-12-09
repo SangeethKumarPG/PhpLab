@@ -55,6 +55,10 @@ if(!isset($_SESSION['userid']) && empty($_SESSION['userid'])){
             <li>
                 <a href="imagegallery.php">View uploaded images</a>
             </li>
+            <li>
+                <a href="pdfupload.php">Upload Pdf</a>
+            </li>
+            <li><a href="viewpdf.php">View uploaded pdf files</a></li>
         </ul>
         
         
