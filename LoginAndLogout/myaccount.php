@@ -29,6 +29,9 @@
             <a href="changepassword.php">Change Password</a>
         </li>
         <li>
+            <a href="dashboard.php">Dashboard</a>
+        </li>
+        <li>
             <a href="#" onclick="check()">Delete my account</a>
         </li>
         <li>
